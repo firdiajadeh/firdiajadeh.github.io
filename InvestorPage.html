@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Investor Page</title>
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./InvestorPage.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend Giga:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend Zetta:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend Deca:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="investor-page">
+      <div class="white-background-square"></div>
+      <h3 class="pilih-investor-terbaikmu-container">
+        <p class="pilih-investor-terbaikmu">Pilih investor terbaikmu hanya</p>
+        <p class="pilih-investor-terbaikmu">dengan scroll dan klik.</p>
+      </h3>
+      <div class="find-your-business">FIND YOUR BUSINESS MATCH!</div>
+      <section class="investors3">
+        <button class="touker-button" id="toukerButton">
+          <div class="touker-button-child"></div>
+          <b class="touker-suleyman">Touker Suleyman</b>
+          <div class="fmcg-retail">FMCG, Retail</div>
+          <img class="customer-icon" alt="" src="./public/customer@2x.png" />
+        </button>
+        <button class="steven-button" id="stevenButton">
+          <div class="steven-button-child"></div>
+          <h2 class="steven-bartlett">Steven Bartlett</h2>
+          <div class="fmcg-social">FMCG, Social</div>
+          <img class="customer-icon1" alt="" src="./public/customer1@2x.png" />
+        </button>
+        <button class="elon-button" id="elonButton">
+          <div class="elon-button-child"></div>
+          <h2 class="elon-musk">Elon Musk</h2>
+          <div class="tech-it">Tech & IT</div>
+          <img class="elon-icon" alt="" src="./public/elon@2x.png" />
+        </button>
+        <button class="impostor-zhang-y" id="impostorZhangY">
+          <div class="impostor-zhang-y-child"></div>
+          <img class="image-8-icon" alt="" src="./public/image-8@2x.png" />
+
+          <h2 class="zhang-y">Zhang, Y</h2>
+          <div class="economy-accounting">Economy, Accounting</div>
+        </button>
+        <button class="zhang-y1" id="zhangY1">
+          <div class="zhang-y-child"></div>
+          <img class="image-7-icon" alt="" src="./public/image-7@2x.png" />
+
+          <h2 class="zhang-y2">Zhang, Y</h2>
+          <div class="economy-accounting1">Economy, Accounting</div>
+        </button>
+        <button class="jessica-k" id="jessicaK">
+          <div class="jessica-k-child"></div>
+          <img class="image-6-icon" alt="" src="./public/image-6@2x.png" />
+
+          <b class="jessica-k1">Jessica, K</b>
+          <div class="fnb-beauty-products">FnB, Beauty Products</div>
+        </button>
+      </section>
+      <div class="filters">
+        <div class="tech-it1">
+          <img
+            class="checked-checkbox-icon"
+            alt=""
+            src="./public/checked-checkbox@2x.png"
+          />
+
+          <div class="tech-it2">Tech & IT</div>
+        </div>
+        <div class="economy-checklist-button">
+          <img
+            class="checked-checkbox-icon"
+            alt=""
+            src="./public/checked-checkbox1@2x.png"
+          />
+
+          <div class="economy">Economy</div>
+        </div>
+        <div class="oil-gas-checklist-button">
+          <img
+            class="checked-checkbox-icon"
+            alt=""
+            src="./public/checked-checkbox2@2x.png"
+          />
+
+          <div class="oil-gas">Oil & Gas</div>
+        </div>
+        <div class="fmcg-checklist-button">
+          <img
+            class="checked-checkbox-icon3"
+            alt=""
+            src="./public/checked-checkbox3@2x.png"
+          />
+
+          <div class="economy">FMCG</div>
+        </div>
+        <div class="fnb-checklist-button">
+          <img
+            class="checked-checkbox-icon"
+            alt=""
+            src="./public/checked-checkbox4@2x.png"
+          />
+
+          <div class="fnb">FnB</div>
+        </div>
+        <h2 class="filter">FILTER</h2>
+      </div>
+      <div class="investor-page-child"></div>
+      <div class="top-right-elements3">
+        <div class="log-in-button3">
+          <h3 class="log-in3">LOG IN</h3>
+        </div>
+        <button class="investor-button3">
+          <div class="investors4">INVESTORS</div>
+        </button>
+        <button class="about-us-button3" id="aboutUsButton">
+          <div class="investors4">ABOUT US</div>
+        </button>
+      </div>
+      <div class="investor-page-item"></div>
+      <div class="socials-bar-bottom2">
+        <img class="instagram-icon2" alt="" src="./public/instagram2@2x.png" />
+
+        <img class="instagram-icon2" alt="" src="./public/linkedin2@2x.png" />
+
+        <img class="instagram-icon2" alt="" src="./public/gmail-logo2@2x.png" />
+      </div>
+    </div>
+
+    <script>
+      var toukerButton = document.getElementById("toukerButton");
+      if (toukerButton) {
+        toukerButton.addEventListener("click", function (e) {
+          window.location.href = "./InvestorPackages.html";
+        });
+      }
+      
+      var stevenButton = document.getElementById("stevenButton");
+      if (stevenButton) {
+        stevenButton.addEventListener("click", function (e) {
+          window.location.href = "./InvestorPackages.html";
+        });
+      }
+      
+      var elonButton = document.getElementById("elonButton");
+      if (elonButton) {
+        elonButton.addEventListener("click", function (e) {
+          window.location.href = "./InvestorPackages.html";
+        });
+      }
+      
+      var impostorZhangY = document.getElementById("impostorZhangY");
+      if (impostorZhangY) {
+        impostorZhangY.addEventListener("click", function (e) {
+          window.location.href = "./InvestorPackages.html";
+        });
+      }
+      
+      var zhangY1 = document.getElementById("zhangY1");
+      if (zhangY1) {
+        zhangY1.addEventListener("click", function (e) {
+          window.location.href = "./InvestorPackages.html";
+        });
+      }
+      
+      var jessicaK = document.getElementById("jessicaK");
+      if (jessicaK) {
+        jessicaK.addEventListener("click", function (e) {
+          window.location.href = "./InvestorPackages.html";
+        });
+      }
+      
+      var aboutUsButton = document.getElementById("aboutUsButton");
+      if (aboutUsButton) {
+        aboutUsButton.addEventListener("click", function (e) {
+          window.location.href = "./LandingPage.html";
+        });
+      }
+      </script>
+  </body>
+</html>

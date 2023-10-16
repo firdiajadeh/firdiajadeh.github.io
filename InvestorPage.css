@@ -1,0 +1,630 @@
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+.white-background-square {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1920px;
+  height: 2635.16px;
+  z-index: 0;
+}
+.pilih-investor-terbaikmu {
+  margin: 0;
+}
+.pilih-investor-terbaikmu-container {
+  margin: 0 !important;
+  position: absolute;
+  top: 650.11px;
+  left: 124.02px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: 0 4.000696182250977px 6px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.find-your-business {
+  position: absolute;
+  margin: 0 !important;
+  top: 377.07px;
+  left: 124.02px;
+  font-size: 89.48px;
+  display: inline-block;
+  width: 1147.2px;
+  height: 233.04px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.touker-button-child {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  border-radius: 39.92px;
+  background-color: var(--color-white);
+  box-shadow: 0 3.9920923709869385px 9.98px 2.99px rgba(34, 34, 34, 0.16);
+  width: 428.15px;
+  height: 434.14px;
+}
+.fmcg-retail,
+.touker-suleyman {
+  position: absolute;
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+}
+.touker-suleyman {
+  top: 317.06px;
+  left: calc(50% - 188.03px);
+  font-size: 39.92px;
+  font-family: var(--font-lexend-deca);
+  width: 377.07px;
+  height: 47.01px;
+}
+.fmcg-retail {
+  top: 374.28px;
+  left: 73.89px;
+  font-size: 31.94px;
+  line-height: 29.94px;
+  font-family: var(--font-lexend);
+  width: 310.39px;
+  height: 31.94px;
+}
+.customer-icon {
+  position: absolute;
+  top: 47.01px;
+  left: 100.02px;
+  width: 257.04px;
+  height: 257.04px;
+  object-fit: cover;
+}
+.touker-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-100);
+  position: absolute;
+  top: calc(50% + 14px);
+  left: calc(50% - 205.04px);
+  width: 458.08px;
+  height: 458.08px;
+  overflow: hidden;
+}
+.steven-button-child {
+  position: absolute;
+  top: 16px;
+  left: 25px;
+  border-radius: 40.01px;
+  background-color: var(--color-white);
+  box-shadow: 0 4.000696182250977px 10px 3px rgba(34, 34, 34, 0.16);
+  width: 429.07px;
+  height: 435.08px;
+}
+.fmcg-social,
+.steven-bartlett {
+  position: absolute;
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+}
+.steven-bartlett {
+  margin: 0;
+  top: 322.06px;
+  left: calc(50% - 163.03px);
+  font-size: 40.01px;
+  font-weight: 700;
+  font-family: var(--font-lexend-deca);
+  width: 326.06px;
+  height: 47.01px;
+}
+.fmcg-social {
+  top: 379.07px;
+  left: 84.01px;
+  font-size: 32.01px;
+  line-height: 30.01px;
+  font-family: var(--font-lexend);
+  width: 311.05px;
+  height: 32.01px;
+}
+.customer-icon1 {
+  position: absolute;
+  top: 64.01px;
+  left: 110.02px;
+  width: 236.04px;
+  height: 258.04px;
+  object-fit: cover;
+}
+.steven-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-100);
+  position: absolute;
+  top: 488.08px;
+  left: 15px;
+  width: 460.08px;
+  height: 457.08px;
+  overflow: hidden;
+}
+.elon-button-child {
+  position: absolute;
+  top: 15px;
+  left: 8px;
+  border-radius: 40.01px;
+  background-color: var(--color-white);
+  box-shadow: 0 4.000696182250977px 10px 3px rgba(34, 34, 34, 0.16);
+  width: 429.07px;
+  height: 435.08px;
+}
+.elon-musk,
+.tech-it {
+  position: absolute;
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+}
+.elon-musk {
+  margin: 0;
+  top: 321.06px;
+  left: 115.02px;
+  font-size: 40.01px;
+  font-weight: 700;
+  font-family: var(--font-lexend-deca);
+  width: 214.04px;
+  height: 47.01px;
+}
+.tech-it {
+  top: 378.07px;
+  left: 67.01px;
+  font-size: 32.01px;
+  line-height: 30.01px;
+  font-family: var(--font-lexend);
+  width: 311.05px;
+  height: 32.01px;
+}
+.elon-icon {
+  position: absolute;
+  top: 60.01px;
+  left: 116.02px;
+  width: 215.04px;
+  height: 261.05px;
+  object-fit: cover;
+}
+.elon-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-100);
+  position: absolute;
+  top: 488.08px;
+  left: calc(50% + 261.05px);
+  width: 443.08px;
+  height: 468.08px;
+  overflow: hidden;
+}
+.impostor-zhang-y-child {
+  position: absolute;
+  top: 13px;
+  left: 16px;
+  border-radius: 40.01px;
+  background-color: var(--color-white);
+  box-shadow: 0 4.000696182250977px 10px 3px rgba(34, 34, 34, 0.16);
+  width: 429.07px;
+  height: 422.07px;
+}
+.image-8-icon {
+  position: absolute;
+  top: 53.01px;
+  left: 124.02px;
+  width: 215.04px;
+  height: 244.04px;
+  object-fit: cover;
+}
+.economy-accounting,
+.zhang-y {
+  position: absolute;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.zhang-y {
+  margin: 0;
+  top: 307.05px;
+  left: 124.02px;
+  font-size: 40.01px;
+  font-weight: 700;
+  font-family: var(--font-lexend-deca);
+  width: 214.04px;
+  height: 46.01px;
+}
+.economy-accounting {
+  top: 362.06px;
+  left: 73.01px;
+  font-size: 30.01px;
+  line-height: 30.01px;
+  font-family: var(--font-lexend);
+  width: 316.05px;
+  height: 32.01px;
+}
+.impostor-zhang-y {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-100);
+  position: absolute;
+  top: 5px;
+  left: 965.17px;
+  box-shadow: 0 4.000696182250977px 4px rgba(0, 0, 0, 0.25);
+  width: 459.08px;
+  height: 447.08px;
+  overflow: hidden;
+}
+.zhang-y-child {
+  position: absolute;
+  top: 5px;
+  left: 11px;
+  border-radius: 40.01px;
+  background-color: var(--color-white);
+  box-shadow: 0 4.000696182250977px 10px 3px rgba(34, 34, 34, 0.16);
+  width: 429.07px;
+  height: 435.08px;
+}
+.image-7-icon {
+  position: absolute;
+  top: 52.01px;
+  left: 130.02px;
+  width: 215.04px;
+  height: 244.04px;
+  object-fit: cover;
+}
+.economy-accounting1,
+.zhang-y2 {
+  position: absolute;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.zhang-y2 {
+  margin: 0;
+  top: 306.05px;
+  left: 131.02px;
+  font-size: 40.01px;
+  font-weight: 700;
+  font-family: var(--font-lexend-deca);
+  width: 214.04px;
+  height: 46.01px;
+}
+.economy-accounting1 {
+  top: 362.06px;
+  left: calc(50% - 158.03px);
+  font-size: 30.01px;
+  line-height: 30.01px;
+  font-family: var(--font-lexend);
+  width: 316.05px;
+  height: 32.01px;
+}
+.zhang-y1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 10px;
+  left: 507.09px;
+  width: 450.08px;
+  height: 454.08px;
+  overflow: hidden;
+}
+.jessica-k-child {
+  position: absolute;
+  top: calc(50% - 221.04px);
+  left: calc(50% - 214.04px);
+  border-radius: 40.01px;
+  background-color: var(--color-white);
+  box-shadow: 0 4.000696182250977px 10px 3px rgba(34, 34, 34, 0.16);
+  width: 429.07px;
+  height: 435.08px;
+}
+.image-6-icon {
+  position: absolute;
+  top: calc(50% - 181.03px);
+  left: calc(50% - 104.02px);
+  width: 211.04px;
+  height: 255.04px;
+  object-fit: cover;
+}
+.fnb-beauty-products,
+.jessica-k1 {
+  position: absolute;
+  top: calc(50% + 95.02px);
+  left: calc(50% - 107.02px);
+  font-size: 40.01px;
+  display: inline-block;
+  font-family: var(--font-lexend-deca);
+  color: var(--color-black);
+  text-align: left;
+  width: 214.04px;
+  height: 47.01px;
+}
+.fnb-beauty-products {
+  top: calc(50% + 142.02px);
+  left: calc(50% - 156.03px);
+  font-size: 30.01px;
+  line-height: 30.01px;
+  font-family: var(--font-lexend);
+  text-align: center;
+  width: 312.05px;
+  height: 32.01px;
+}
+.jessica-k {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 450.08px;
+  height: 452.08px;
+  overflow: hidden;
+}
+.investors3 {
+  position: absolute;
+  margin: 0 !important;
+  top: 1149.2px;
+  left: 430.07px;
+  width: 1424.25px;
+  height: 956.17px;
+  z-index: 3;
+}
+.checked-checkbox-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 58.01px;
+  height: 61.01px;
+  object-fit: cover;
+}
+.tech-it2 {
+  position: absolute;
+  top: 9px;
+  left: 72.01px;
+  display: inline-block;
+  width: 274.05px;
+  height: 26px;
+}
+.tech-it1 {
+  position: absolute;
+  top: 367.06px;
+  left: 0;
+  width: 337.06px;
+  height: 52.01px;
+  overflow: hidden;
+}
+.economy {
+  position: absolute;
+  top: 13px;
+  left: 72.01px;
+  display: inline-block;
+  width: 256.04px;
+  height: 26px;
+}
+.economy-checklist-button {
+  position: absolute;
+  top: 286.05px;
+  left: 0;
+  width: 337.06px;
+  height: 52.01px;
+  overflow: hidden;
+}
+.oil-gas {
+  position: absolute;
+  top: 9px;
+  left: 72.01px;
+  display: inline-block;
+  width: 256.04px;
+  height: 26px;
+}
+.oil-gas-checklist-button {
+  position: absolute;
+  top: 223.04px;
+  left: 0;
+  width: 337.06px;
+  height: 52.01px;
+  overflow: hidden;
+}
+.checked-checkbox-icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 58.01px;
+  height: 62.01px;
+  object-fit: cover;
+}
+.fmcg-checklist-button {
+  position: absolute;
+  top: 151.03px;
+  left: 0;
+  width: 337.06px;
+  height: 52.01px;
+  overflow: hidden;
+}
+.fnb {
+  position: absolute;
+  top: 5px;
+  left: 72.01px;
+  display: inline-block;
+  width: 256.04px;
+  height: 26px;
+}
+.fnb-checklist-button {
+  position: absolute;
+  top: 88.02px;
+  left: 0;
+  width: 337.06px;
+  height: 52.01px;
+  overflow: hidden;
+}
+.filter {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 35.01px;
+  font-size: 40.01px;
+  font-weight: 400;
+  font-family: inherit;
+  text-align: center;
+  display: inline-block;
+  width: 257.04px;
+  height: 53.01px;
+}
+.filters,
+.investor-page-child {
+  position: absolute;
+  margin: 0 !important;
+}
+.filters {
+  top: 1154.2px;
+  left: 63.01px;
+  width: 337.06px;
+  height: 419.07px;
+  z-index: 4;
+  font-size: var(--font-size-5xl);
+}
+.investor-page-child {
+  top: -10.22px;
+  left: -0.15px;
+  background-color: var(--color-brown-100);
+  width: 1920px;
+  height: 130.76px;
+  z-index: 5;
+}
+.log-in3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: 0 4.000696182250977px 5px rgba(0, 0, 0, 0.25);
+}
+.log-in-button3 {
+  position: absolute;
+  top: 0;
+  left: 608.11px;
+  background-color: var(--color-gray-100);
+  width: 188.03px;
+  height: 72.01px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13.002262115478516px 8.001392364501953px;
+  box-sizing: border-box;
+}
+.investors4 {
+  position: relative;
+  font-size: 36.01px;
+  font-family: var(--font-lexend-giga);
+  color: var(--color-white);
+  text-align: left;
+  text-shadow: 0 4.000696182250977px 5px rgba(0, 0, 0, 0.25);
+}
+.about-us-button3,
+.investor-button3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-100);
+  position: absolute;
+  top: 12px;
+  left: 289.05px;
+  width: 268.05px;
+  height: 52.01px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about-us-button3:active,
+.investor-button3:active {
+  animation: 1s ease 0s infinite normal none scale-down-center;
+  opacity: 1;
+}
+.about-us-button3 {
+  padding: 1.0001740455627441px 3.0005221366882324px;
+  left: 0;
+  width: 240.04px;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.top-right-elements3 {
+  position: absolute;
+  margin: 0 !important;
+  top: 19px;
+  left: 1091.19px;
+  width: 796.14px;
+  height: 72.01px;
+  mix-blend-mode: lighten;
+  z-index: 6;
+  color: var(--color-white);
+}
+.investor-page-item {
+  position: absolute;
+  margin: 0 !important;
+  top: 2370.1px;
+  left: -0.15px;
+  background-color: var(--color-brown-100);
+  width: 1920px;
+  height: 378.93px;
+  mix-blend-mode: normal;
+  z-index: 7;
+}
+.instagram-icon2 {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 90.02px;
+  object-fit: cover;
+}
+.socials-bar-bottom2 {
+  margin: 0 !important;
+  position: absolute;
+  bottom: 73.01px;
+  left: calc(50% - 178.86px);
+  width: 358.06px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 44.01px;
+  z-index: 8;
+}
+.investor-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2749.48px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 36.01px;
+  color: var(--color-black);
+  font-family: var(--font-lexend-giga);
+}
+@media screen and (max-width: 1200px) {
+  .investor-page {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}

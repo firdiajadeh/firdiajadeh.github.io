@@ -1,0 +1,433 @@
+.investor-packages-child {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  background-color: var(--color-white);
+  width: 1919px;
+  height: 2638.63px;
+}
+.investor-packages-item {
+  position: absolute;
+  top: 2158.88px;
+  left: -1px;
+  background: linear-gradient(0deg, #601b1b, #861f1f);
+  width: 1919px;
+  height: 479.75px;
+}
+.investor-packages-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-brown-100);
+  width: 1920px;
+  height: 110.94px;
+}
+.ok-icon,
+.ok-icon1,
+.ok-icon2,
+.ok-icon3,
+.ok-icon4,
+.ok-icon5,
+.ok-icon6,
+.ok-icon7,
+.ok-icon8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 89.95px;
+  height: 89.95px;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.ok-icon1,
+.ok-icon2,
+.ok-icon3,
+.ok-icon4,
+.ok-icon5,
+.ok-icon6,
+.ok-icon7,
+.ok-icon8 {
+  left: 750.61px;
+}
+.ok-icon2,
+.ok-icon3,
+.ok-icon4,
+.ok-icon5,
+.ok-icon6,
+.ok-icon7,
+.ok-icon8 {
+  left: 341.82px;
+}
+.ok-icon3,
+.ok-icon4,
+.ok-icon5,
+.ok-icon6,
+.ok-icon7,
+.ok-icon8 {
+  top: 410.79px;
+  left: 0;
+}
+.ok-icon4,
+.ok-icon5,
+.ok-icon6,
+.ok-icon7,
+.ok-icon8 {
+  left: 750.61px;
+}
+.ok-icon5,
+.ok-icon6,
+.ok-icon7,
+.ok-icon8 {
+  left: 341.82px;
+}
+.ok-icon6,
+.ok-icon7,
+.ok-icon8 {
+  top: 137.93px;
+  left: 750.61px;
+}
+.ok-icon7,
+.ok-icon8 {
+  top: 275.86px;
+}
+.ok-icon8 {
+  top: 137.93px;
+  left: 341.82px;
+}
+.checkmarks {
+  position: absolute;
+  top: 131.93px;
+  left: 593.69px;
+  width: 840.56px;
+  height: 500.74px;
+}
+.direct-connection-with,
+.feedback-on-proposal,
+.two-way-communication,
+.venture-capital {
+  position: absolute;
+  top: 561.71px;
+  left: 0;
+  letter-spacing: 0.05em;
+  line-height: 91%;
+  display: inline-block;
+  width: 407.79px;
+}
+.direct-connection-with,
+.feedback-on-proposal,
+.two-way-communication {
+  top: 423.78px;
+}
+.feedback-on-proposal,
+.two-way-communication {
+  top: 285.85px;
+  width: 374.8px;
+}
+.feedback-on-proposal {
+  top: 147.92px;
+  width: 315.84px;
+}
+.diamond,
+.platinum {
+  position: absolute;
+  top: 0;
+  left: 1260.34px;
+  font-size: 39.98px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.platinum {
+  top: 5px;
+  left: 848.56px;
+}
+.gold,
+.texts {
+  position: absolute;
+  top: 0;
+}
+.gold {
+  left: 575.7px;
+  font-size: 39.98px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.texts {
+  left: 0;
+  width: 1518.34px;
+  height: 590.71px;
+}
+.vectors-icon,
+.what-you-get {
+  position: absolute;
+  top: 106.94px;
+  left: 0;
+  width: 1630.15px;
+  height: 414.78px;
+}
+.what-you-get {
+  top: 1205.37px;
+  left: 115.94px;
+  height: 632.67px;
+  text-align: left;
+  font-size: 31.98px;
+  color: var(--color-black);
+  font-family: var(--font-lexend-giga);
+}
+.gmail-logo-icon1,
+.instagram-icon1,
+.linkedin-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 89.95px;
+  height: 89.95px;
+  object-fit: cover;
+}
+.gmail-logo-icon1,
+.linkedin-icon1 {
+  left: 133.93px;
+}
+.gmail-logo-icon1 {
+  left: 267.86px;
+}
+.socials-bar-bottom1 {
+  position: absolute;
+  top: 2389.76px;
+  left: 799.58px;
+  width: 357.81px;
+  height: 89.95px;
+}
+.log-in2 {
+  position: relative;
+  text-shadow: 0 3.997917890548706px 5px rgba(0, 0, 0, 0.25);
+}
+.about-us-button2,
+.investor-button2,
+.log-in-button2 {
+  position: absolute;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.log-in-button2 {
+  top: 0;
+  left: 525.11px;
+  width: 187.9px;
+  height: 71.96px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 7.995882034301758px;
+  box-sizing: border-box;
+}
+.about-us-button2,
+.investor-button2 {
+  top: 11.99px;
+  left: 0;
+  width: 267.86px;
+  height: 51.97px;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.about-us-button2 {
+  left: 280px;
+  width: 239.88px;
+  align-items: flex-end;
+  padding: 0.9994791746139526px 1.8782062530517578px;
+  box-sizing: border-box;
+}
+.gold-package-child,
+.top-right-elements2 {
+  position: absolute;
+  top: 0;
+  left: 1192px;
+  width: 713.01px;
+  height: 71.96px;
+}
+.gold-package-child {
+  left: 0;
+  border-radius: 19.99px;
+  background-color: var(--color-white);
+  box-shadow: 0 3.997917890548706px 9.99px 8px rgba(0, 0, 0, 0.15);
+  width: 524.73px;
+  height: 374.8px;
+}
+.gold1,
+.pitch-idea-through {
+  position: absolute;
+  top: 175.91px;
+  left: 201.89px;
+  font-size: 39.98px;
+  letter-spacing: 0.05em;
+  font-family: var(--font-lexend-giga);
+  color: var(--color-black);
+  text-align: center;
+}
+.pitch-idea-through {
+  top: 250.87px;
+  left: 42.98px;
+  font-size: 22.99px;
+  letter-spacing: -0.05em;
+  display: inline-block;
+  width: 438.77px;
+  height: 94.95px;
+}
+.rp-1000 {
+  font-size: 47.98px;
+}
+.span {
+  font-size: 19.99px;
+}
+.rp-10000001 {
+  line-height: 107.5%;
+}
+.rp-1000000 {
+  position: absolute;
+  top: 71.96px;
+  left: 98.95px;
+  font-family: var(--font-lexend-giga);
+  color: var(--color-black);
+  text-align: center;
+}
+.gold-package {
+  position: relative;
+  width: 524.73px;
+  height: 374.8px;
+}
+.gold-package-button {
+  cursor: pointer;
+  border: 0;
+  padding: 14.99213981628418px 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 555.71px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.pitch-idea-through1 {
+  top: 250.87px;
+  left: 28.98px;
+  font-size: 22.99px;
+  letter-spacing: -0.05em;
+  display: inline-block;
+  width: 466.76px;
+  height: 104.95px;
+}
+.pitch-idea-through1,
+.platinum1,
+.rp-1500000 {
+  position: absolute;
+  font-family: var(--font-lexend-giga);
+  color: var(--color-black);
+  text-align: center;
+}
+.platinum1 {
+  top: 175.91px;
+  left: 129.93px;
+  font-size: 39.98px;
+  letter-spacing: 0.1em;
+}
+.rp-1500000 {
+  top: 71.96px;
+  left: 100.95px;
+}
+.platinum-package-button {
+  cursor: pointer;
+  border: 0;
+  padding: 14.992220878601074px 0;
+  background-color: transparent;
+  position: absolute;
+  top: 4.74px;
+  left: 581.65px;
+  width: 555.71px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.direct-communication-with {
+  position: absolute;
+  top: 240.87px;
+  left: 28.99px;
+  font-size: 23.99px;
+  letter-spacing: -0.05em;
+  font-family: var(--font-lexend-giga);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 466.76px;
+  height: 104.95px;
+}
+.span2 {
+  font-size: 23.99px;
+}
+.diamond1,
+.rp-2000000 {
+  position: absolute;
+  top: 71.96px;
+  left: 91.95px;
+  font-family: var(--font-lexend-giga);
+  color: var(--color-black);
+  text-align: center;
+}
+.diamond1 {
+  top: 175.91px;
+  left: 133.93px;
+  font-size: 39.98px;
+  letter-spacing: 0.1em;
+}
+.diamond-package-button {
+  cursor: pointer;
+  border: 0;
+  padding: 14.992220878601074px 0;
+  background-color: transparent;
+  position: absolute;
+  top: 4.74px;
+  left: 1162.34px;
+  width: 555.71px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.packages,
+.pick-your-best {
+  position: absolute;
+  top: 529.98px;
+  left: 98px;
+  width: 1718.05px;
+  height: 409.53px;
+}
+.pick-your-best {
+  top: 219.89px;
+  left: 384.8px;
+  font-size: 89.42px;
+  line-height: 107.5%;
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 1146.4px;
+  height: 220.88px;
+}
+.investor-packages {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 2638.63px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 35.98px;
+  color: var(--color-white);
+  font-family: var(--font-lexend-giga);
+}

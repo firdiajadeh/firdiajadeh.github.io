@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Investor Packages</title>
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./InvestorPackages.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend Giga:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend Zetta:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend Deca:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="investor-packages">
+      <section class="investor-packages-child"></section>
+      <section class="investor-packages-item"></section>
+      <section class="investor-packages-inner"></section>
+      <section class="what-you-get">
+        <div class="checkmarks">
+          <img class="ok-icon" alt="" src="./public/ok@2x.png" />
+
+          <img class="ok-icon1" alt="" src="./public/ok1@2x.png" />
+
+          <img class="ok-icon2" alt="" src="./public/ok2@2x.png" />
+
+          <img class="ok-icon3" alt="" src="./public/ok3@2x.png" />
+
+          <img class="ok-icon4" alt="" src="./public/ok4@2x.png" />
+
+          <img class="ok-icon5" alt="" src="./public/ok5@2x.png" />
+
+          <img class="ok-icon6" alt="" src="./public/ok6@2x.png" />
+
+          <img class="ok-icon7" alt="" src="./public/ok7@2x.png" />
+
+          <img class="ok-icon8" alt="" src="./public/ok8@2x.png" />
+        </div>
+        <div class="texts">
+          <div class="venture-capital">Venture Capital</div>
+          <div class="direct-connection-with">
+            Direct connection with investor
+          </div>
+          <div class="two-way-communication">Two way communication</div>
+          <div class="feedback-on-proposal">Feedback on proposal</div>
+          <div class="diamond">Diamond</div>
+          <div class="platinum">Platinum</div>
+          <div class="gold">Gold</div>
+        </div>
+        <img class="vectors-icon" alt="" src="./public/vectors.svg" />
+      </section>
+      <div class="socials-bar-bottom1">
+        <img class="instagram-icon1" alt="" src="./public/instagram1@2x.png" />
+
+        <img class="linkedin-icon1" alt="" src="./public/linkedin1@2x.png" />
+
+        <img
+          class="gmail-logo-icon1"
+          alt=""
+          src="./public/gmail-logo1@2x.png"
+        />
+      </div>
+      <div class="top-right-elements2">
+        <div class="log-in-button2">
+          <div class="log-in2">LOG IN</div>
+        </div>
+        <div class="investor-button2" id="investorButtonContainer">
+          <div class="log-in2">INVESTORS</div>
+        </div>
+        <div class="about-us-button2" id="aboutUsButton">
+          <div class="log-in2">ABOUT US</div>
+        </div>
+      </div>
+      <div class="packages">
+        <button class="gold-package-button" id="goldPackageButton">
+          <div class="gold-package">
+            <div class="gold-package-child"></div>
+            <div class="gold1">Gold</div>
+            <div class="pitch-idea-through">
+              Pitch idea through us, get a one way feedback on your proposal and
+              venture capital*
+            </div>
+            <b class="rp-1000000">
+              <span class="rp-10000001">
+                <span class="rp-1000">Rp 1,000</span>
+                <span class="span">,000</span>
+              </span>
+            </b>
+          </div>
+        </button>
+        <button class="platinum-package-button" id="platinumPackageButton">
+          <div class="gold-package">
+            <div class="gold-package-child"></div>
+            <div class="pitch-idea-through1">
+              Pitch idea through us, two way communication on your proposal**
+              and venture capital*
+            </div>
+            <div class="platinum1">Platinum</div>
+            <b class="rp-1500000">
+              <span class="rp-10000001">
+                <span class="rp-1000">Rp 1,500</span>
+                <span class="span">,000</span>
+              </span>
+            </b>
+          </div>
+        </button>
+        <button class="diamond-package-button" id="diamondPackageButton">
+          <div class="gold-package">
+            <div class="gold-package-child"></div>
+            <div class="direct-communication-with">
+              Direct communication with investor, gain connection with investor
+              and venture capital*
+            </div>
+            <b class="rp-2000000">
+              <span class="rp-10000001">
+                <span class="rp-1000">Rp 2,000</span>
+                <span class="span2">,000</span>
+              </span>
+            </b>
+            <div class="diamond1">Diamond</div>
+          </div>
+        </button>
+      </div>
+      <div class="pick-your-best">PICK YOUR BEST STARTER PACK</div>
+    </div>
+
+    <script>
+      var investorButtonContainer = document.getElementById(
+        "investorButtonContainer"
+      );
+      if (investorButtonContainer) {
+        investorButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./InvestorPage.html";
+        });
+      }
+      
+      var aboutUsButton = document.getElementById("aboutUsButton");
+      if (aboutUsButton) {
+        aboutUsButton.addEventListener("click", function (e) {
+          window.location.href = "./LandingPage.html";
+        });
+      }
+      
+      var goldPackageButton = document.getElementById("goldPackageButton");
+      if (goldPackageButton) {
+        goldPackageButton.addEventListener("click", function (e) {
+          window.location.href = "./PaymentPage.html";
+        });
+      }
+      
+      var platinumPackageButton = document.getElementById("platinumPackageButton");
+      if (platinumPackageButton) {
+        platinumPackageButton.addEventListener("click", function (e) {
+          window.location.href = "./PaymentPage.html";
+        });
+      }
+      
+      var diamondPackageButton = document.getElementById("diamondPackageButton");
+      if (diamondPackageButton) {
+        diamondPackageButton.addEventListener("click", function (e) {
+          window.location.href = "./PaymentPage.html";
+        });
+      }
+      </script>
+  </body>
+</html>

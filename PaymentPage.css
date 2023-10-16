@@ -1,0 +1,503 @@
+.item,
+.item1,
+.item2,
+.item3 {
+  position: absolute;
+  top: 0;
+  left: 1px;
+}
+.item1,
+.item2,
+.item3 {
+  top: 45px;
+}
+.item2,
+.item3 {
+  top: 90px;
+}
+.item3 {
+  top: 135px;
+}
+.div,
+.sub-total,
+.tax,
+.total {
+  position: absolute;
+  top: 246px;
+  left: 1px;
+}
+.div,
+.tax,
+.total {
+  top: 367px;
+}
+.div,
+.tax {
+  top: 291px;
+}
+.div {
+  top: 301px;
+  left: 41px;
+  font-size: 13px;
+}
+.div1,
+.div2,
+.div3,
+.div4 {
+  position: absolute;
+  top: 0;
+  left: 301px;
+}
+.div2,
+.div3,
+.div4 {
+  top: 45px;
+}
+.div3,
+.div4 {
+  top: 90px;
+}
+.div4 {
+  top: 135px;
+}
+.div5,
+.div6,
+.div7 {
+  position: absolute;
+  top: 246px;
+  left: 288px;
+}
+.div6,
+.div7 {
+  top: 367px;
+  left: 257px;
+}
+.div7 {
+  top: 294px;
+  left: 281px;
+}
+.frame-child,
+.frame-inner,
+.frame-item {
+  position: absolute;
+  top: 210.5px;
+  left: -0.5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 343px;
+  height: 1px;
+}
+.frame-inner,
+.frame-item {
+  top: 345.5px;
+  left: 0.5px;
+}
+.frame-inner {
+  top: 430.5px;
+  left: -0.5px;
+}
+.frame-child1,
+.frame-child2,
+.frame-child3,
+.frame-child4,
+.frame-child5,
+.frame-child6,
+.line-div {
+  position: absolute;
+  top: 21.5px;
+  left: 52.5px;
+  border-top: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 245px;
+  height: 1px;
+}
+.frame-child1,
+.frame-child2,
+.frame-child3,
+.frame-child4,
+.frame-child5,
+.frame-child6 {
+  top: 66.5px;
+  left: 51.5px;
+}
+.frame-child2,
+.frame-child3,
+.frame-child4,
+.frame-child5,
+.frame-child6 {
+  top: 111.5px;
+}
+.frame-child3,
+.frame-child4,
+.frame-child5,
+.frame-child6 {
+  top: 156.5px;
+}
+.frame-child4,
+.frame-child5,
+.frame-child6 {
+  top: 315.5px;
+  left: 67.5px;
+  width: 210px;
+}
+.frame-child5,
+.frame-child6 {
+  top: 388.5px;
+  left: 56.5px;
+  width: 199px;
+}
+.frame-child6 {
+  top: 267.5px;
+  left: 101.5px;
+  width: 184px;
+}
+.item-parent {
+  position: absolute;
+  top: 64px;
+  left: 55px;
+  width: 345px;
+  height: 431px;
+}
+.div8,
+.order-no {
+  position: absolute;
+  top: 0;
+}
+.order-no {
+  left: 0;
+  font-weight: 600;
+}
+.div8 {
+  left: 116px;
+}
+.lorem-ipsum-dolor {
+  position: absolute;
+  top: 504px;
+  left: 56px;
+  font-size: var(--font-size-sm);
+  color: #565656;
+  display: inline-block;
+  width: 343px;
+  height: 86px;
+}
+.logo,
+.usd {
+  position: absolute;
+}
+.logo {
+  top: 0;
+  left: 345px;
+  border-radius: 9px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 54px;
+  height: 32px;
+}
+.usd {
+  top: 8px;
+  left: 351px;
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  width: 28px;
+}
+.frame-parent,
+.polygon-icon {
+  position: absolute;
+  top: 15px;
+  left: 386.54px;
+  width: 6.93px;
+  height: 6px;
+}
+.frame-parent {
+  top: 266px;
+  left: 64px;
+  width: 400px;
+  height: 590px;
+}
+.rectangle-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 74px;
+  background-color: #601b1b;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1491px;
+  height: 1080px;
+}
+.group-icon {
+  position: absolute;
+  top: 128px;
+  left: 170px;
+  width: 996.43px;
+  height: 809.66px;
+}
+.card-number,
+.cardholder-name {
+  position: absolute;
+  top: 191px;
+  left: 34px;
+}
+.cardholder-name {
+  top: 286px;
+  left: 32px;
+}
+.div9,
+.expiration,
+.john-deez {
+  position: absolute;
+  top: 286px;
+  left: 509px;
+}
+.div9,
+.john-deez {
+  top: 307px;
+  left: 519px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-karla);
+  color: var(--color-white);
+}
+.john-deez {
+  margin: 0;
+  left: 32px;
+  font-weight: 400;
+}
+.frame-child7,
+.frame-child8 {
+  position: absolute;
+  height: 9.64%;
+  width: 88.48%;
+  top: 65.2%;
+  right: 6.19%;
+  bottom: 25.16%;
+  left: 5.34%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame-child8 {
+  height: 27.43%;
+  width: 21.51%;
+  top: 0;
+  right: 78.49%;
+  bottom: 72.57%;
+  left: 0;
+}
+.pngitem-17977-1-icon {
+  position: absolute;
+  top: 5px;
+  left: 522px;
+  width: 134px;
+  height: 81px;
+  object-fit: cover;
+}
+.card-number-parent {
+  position: absolute;
+  top: 179px;
+  left: 385px;
+  width: 656px;
+  height: 349.67px;
+  font-size: var(--font-size-lg);
+  color: var(--color-whitesmoke);
+}
+.rectangle-input {
+  border: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 648px;
+  left: 358px;
+  border-radius: var(--br-2xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 404px;
+  height: 53px;
+}
+.cardholder-name1 {
+  position: absolute;
+  top: 667px;
+  left: 375px;
+}
+.frame-child10,
+.frame-child11,
+.frame-child9,
+.rectangle-div {
+  position: absolute;
+  left: 358px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 53px;
+}
+.frame-child9 {
+  border: 0;
+  top: 735px;
+  width: 404px;
+}
+.frame-child10,
+.frame-child11,
+.rectangle-div {
+  top: 822px;
+  width: 179px;
+}
+.frame-child10,
+.frame-child11 {
+  left: 581px;
+}
+.frame-child11 {
+  left: 800px;
+}
+.card-number1 {
+  position: absolute;
+  top: 754px;
+  left: 375px;
+}
+.expiration-date,
+.pay-now,
+.security-code {
+  position: absolute;
+  top: 841px;
+  left: 376px;
+}
+.pay-now,
+.security-code {
+  left: 601px;
+}
+.pay-now {
+  left: 862px;
+  color: var(--color-black);
+}
+.i-agree-to,
+.lorem-ipsum-dolor1 {
+  position: absolute;
+  top: 648px;
+  left: 804px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 287px;
+  height: 100px;
+}
+.i-agree-to {
+  top: 768px;
+  left: 829px;
+  width: 191px;
+  height: 17px;
+}
+.frame-child12 {
+  position: absolute;
+  top: 768px;
+  left: 804px;
+  border-radius: 3px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 18px;
+  height: 18px;
+}
+.log-in1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+}
+.log-in-button1 {
+  position: absolute;
+  top: 0;
+  left: 608px;
+  background-color: var(--color-gray-100);
+  width: 188px;
+  height: 72px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 13px 0;
+  box-sizing: border-box;
+}
+.investors1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-lexend-giga);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+}
+.investor-button1 {
+  position: absolute;
+  top: 12px;
+  left: 289px;
+  background-color: var(--color-gray-100);
+  width: 268px;
+  height: 52px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.about-us1 {
+  position: relative;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-lexend-giga);
+  color: var(--color-white);
+  text-align: left;
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+}
+.about-us-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 1px 2px;
+  background-color: var(--color-gray-100);
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 240px;
+  height: 52px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.top-right-elements1 {
+  position: absolute;
+  top: 12px;
+  left: 551px;
+  width: 796px;
+  height: 72px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-lexend-giga);
+}
+.frame1,
+.payment-page {
+  height: 1080px;
+  overflow: hidden;
+}
+.frame1 {
+  position: absolute;
+  top: 0;
+  left: 559px;
+  width: 1491px;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray);
+}
+.payment-page {
+  position: relative;
+  border-radius: 10px;
+  background-color: var(--color-white);
+  width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
