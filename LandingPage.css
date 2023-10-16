@@ -1,0 +1,400 @@
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1921px;
+  height: 3338px;
+  overflow: hidden;
+}
+.landing-page-child {
+  position: absolute;
+  top: 2858px;
+  left: 0;
+  background: linear-gradient(0deg, #601b1b, #861f1f);
+  width: 1920px;
+  height: 480px;
+}
+.landing-page-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    93.97deg,
+    rgba(16, 16, 33, 0.65),
+    rgba(217, 217, 217, 0)
+  );
+  width: 1921px;
+  height: 1076px;
+}
+.image-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1921.6px;
+  height: 1076.9px;
+  object-fit: cover;
+}
+.business-men-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1921px;
+  height: 1076px;
+  overflow: hidden;
+}
+.about-us {
+  position: absolute;
+  top: 1.25px;
+  right: 26.51px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-lexend-giga);
+  color: var(--color-white);
+  text-align: left;
+  text-shadow: 0 4.993268966674805px 6.24px rgba(0, 0, 0, 0.25);
+}
+.about-us-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-100);
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 25.2px);
+  left: calc(50% - 346px);
+  width: 240px;
+  height: 52px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.investors {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-lexend-giga);
+  color: var(--color-white);
+  text-align: left;
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+}
+.investor-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-100);
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 25.2px);
+  left: calc(50% - 82px);
+  width: 268px;
+  height: 52px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.investor-button:active {
+  animation: 0.5s ease 0s 1 reverse none scale-down-center;
+  opacity: 1;
+}
+.log-in {
+  position: absolute;
+  top: 16.23px;
+  right: 27.01px;
+  text-shadow: 0 4.993268966674805px 6.24px rgba(0, 0, 0, 0.25);
+}
+.log-in-button {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 36.4px);
+  left: calc(50% + 209.2px);
+  background-color: var(--color-gray-100);
+  width: 188px;
+  height: 72px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.top-right-elements {
+  position: absolute;
+  top: 36px;
+  right: 53.6px;
+  width: 796px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0.00005185934423934668px 0 0;
+  box-sizing: border-box;
+  gap: 48px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.image-2-icon {
+  position: absolute;
+  top: 1245px;
+  left: 1119px;
+  border-radius: 30px;
+  width: 619px;
+  height: 424px;
+  object-fit: cover;
+}
+.start-your-entrepreneur {
+  top: 130px;
+  left: 163px;
+  width: 1225px;
+  height: 143px;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+}
+.company-name,
+.start-your-entrepreneur,
+.we-have-over {
+  position: absolute;
+  display: inline-block;
+}
+.we-have-over {
+  top: 1028px;
+  left: 0;
+  color: #212121;
+  text-align: left;
+  width: 830px;
+  height: 198px;
+}
+.company-name {
+  top: 0;
+  left: 283px;
+  font-size: 89.46px;
+  width: 984.09px;
+  height: 130px;
+}
+.how-it-works,
+.why-us {
+  position: absolute;
+  top: 1478px;
+  left: 377px;
+  font-size: var(--font-size-53xl-8);
+  letter-spacing: -0.05em;
+  font-family: var(--font-lexend-zetta);
+  color: var(--color-brown-200);
+}
+.why-us {
+  top: 876px;
+  left: 123px;
+}
+.text-un-linked-to-any-element {
+  position: absolute;
+  top: 393px;
+  left: 185px;
+  width: 1388px;
+  height: 1569px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+}
+.start-now-child {
+  position: relative;
+  border-radius: 25px;
+  background-color: #842020;
+  box-shadow: 0 5.000000953674316px 8px rgba(0, 0, 0, 0.25);
+  width: 522px;
+  height: 129px;
+  z-index: 0;
+}
+.start-now1 {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 28.4px);
+  left: calc(50% - 166.4px);
+  font-size: 44.8px;
+  font-family: var(--font-lexend-giga);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.start-now {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 925.5px);
+  left: calc(50% - 261px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.start-now:hover {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+  opacity: 1;
+}
+.start-now:active {
+  animation: 1s ease 0s infinite normal none scale-down-center;
+  opacity: 1;
+}
+.image-9-icon {
+  position: absolute;
+  top: 34.6px;
+  left: 21.2px;
+  width: 483.2px;
+  height: 336px;
+  object-fit: cover;
+}
+.register {
+  position: absolute;
+  top: 404.2px;
+  left: 117.78px;
+  letter-spacing: 0.05em;
+}
+.register-your-company {
+  position: absolute;
+  top: 497.82px;
+  left: -10.8px;
+  font-size: 29.96px;
+  letter-spacing: -0.05em;
+  display: inline-block;
+  width: 548.01px;
+  height: 82.39px;
+}
+.register-square {
+  position: absolute;
+  top: calc(50% + 374.6px);
+  left: calc(50% - 856px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 10px 8px rgba(0, 0, 0, 0.15);
+  width: 525px;
+  height: 630px;
+  font-size: 49.93px;
+}
+.image-10-icon {
+  position: absolute;
+  top: 37.8px;
+  left: calc(50% - 234.1px);
+  width: 467.2px;
+  height: 299.2px;
+  object-fit: cover;
+}
+.we-will-offer {
+  position: absolute;
+  top: 461.8px;
+  left: -0.4px;
+  letter-spacing: -0.05em;
+  display: inline-block;
+  width: 524.8px;
+  height: 108.8px;
+}
+.pick {
+  position: absolute;
+  top: 373.8px;
+  left: 185.51px;
+  font-size: 49.93px;
+  letter-spacing: 0.1em;
+}
+.pick-square {
+  position: absolute;
+  top: calc(50% + 379.4px);
+  left: calc(50% - 262.4px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 10px 8px rgba(0, 0, 0, 0.15);
+  width: 525px;
+  height: 630px;
+}
+.image-11-icon {
+  position: absolute;
+  top: 49px;
+  left: calc(50% - 239.5px);
+  width: 480px;
+  height: 315px;
+  object-fit: cover;
+}
+.you-can-consult {
+  position: absolute;
+  top: 462.4px;
+  left: 0;
+  letter-spacing: -0.05em;
+  display: inline-block;
+  width: 524.8px;
+  height: 96px;
+}
+.consult {
+  position: absolute;
+  top: 403.2px;
+  left: 123.2px;
+  font-size: 49.93px;
+  letter-spacing: 0.1em;
+}
+.consult-square {
+  position: absolute;
+  top: calc(50% + 374.6px);
+  left: calc(50% + 331.2px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 10px 8px rgba(0, 0, 0, 0.15);
+  width: 525px;
+  height: 630px;
+}
+.gmail-logo-icon,
+.instagram-icon,
+.linkedin-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.gmail-logo-icon,
+.linkedin-icon {
+  left: 134px;
+}
+.gmail-logo-icon {
+  left: 268px;
+}
+.socials-bar-bottom {
+  position: absolute;
+  top: 3053px;
+  left: 781px;
+  width: 358px;
+  height: 90px;
+}
+.landing-page1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  text-align: center;
+  font-size: 29.96px;
+  color: var(--color-black);
+  font-family: var(--font-lexend-giga);
+}
+.landing-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 3338px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1920px;
+}
